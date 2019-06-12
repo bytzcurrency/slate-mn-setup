@@ -33,6 +33,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 4***
 * Choose a server type: Ubuntu 16.04
+![Example-OS](https://i.imgur.com/O7wlXH6.png)
 ![Example-OS](https://i.imgur.com/aSMqHUK.png)
 ***
 
@@ -69,7 +70,9 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Section C: Connecting to the VPS & Installing the MN script via Bitvise.
 
 ***Step 1***
-* Copy your VPS IP (you can find this by going to the server tab within Vultr and clicking on your server.
+* Go to products, select instances and click on your created server instance
+![Example-Vultr](https://i.imgur.com/tddASHY.jpg)
+* In the "Server Information (Masternode)" section copy your VPS IP (click on the "copy IP Address" icon where it says "IP Address")
 ![Example-Vultr](https://i.imgur.com/z41MiwY.png)
 ***
 
@@ -84,13 +87,13 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 4***
-* Type "root" as the login/username.
-![Example-Root](https://i.imgur.com/11GMkvA.png)
+* Type "root" as the login/username and click the check mark box to "store encrypted password in profile" 
+![Example-Root](https://i.imgur.com/UO2fBn8.png)
 ***
 
 ***Step 5***
 * Paste the password into the Bitvise terminal by right clicking (it will not show the password so just press enter)
-![Example-RootPassEnter](https://i.imgur.com/zVhOAKu.png)
+![Example-RootPassEnter](https://i.imgur.com/aioiRFH.png)
 ***
 
 ***Step 6***
@@ -136,7 +139,11 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 2***
-* Send EXACTLY 350,000 SLX to a receive address within your wallet.
+* Send EXACTLY 350,000 SLX to yourserlf by 
+* Creating a receive address within your wallet using the "Receive" option.
+* Click the "Send" option within your wallet, paste the receive address you created earlier in the "Pay to:" section.
+* For "Amount:" put 350,000
+* Click "Send"
 ***
 
 ***Step 3***
@@ -158,7 +165,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 6***
-* Copy the long key (this is your transaction ID) and the 1 or 2 at the end (this is your output index)
+* Copy the long key marked as "txhash" (this is your transaction ID) and the number marked as "outputdix" (this is your output index)
 * Paste these into the text document you created earlier as you will need them in the next step.
 ***
 
@@ -174,9 +181,9 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Fill in the form.
 * For `Alias` type something like "MN01" **don't use spaces**
 * The `Address` is the IP and port of your server (this will be in the Bitvise terminal that you still have open).
-* The `PrivKey` is your masternode private key (This is also in the Bitvise terminal that you have open).
-* The `TxHash` is the transaction ID/long key that you copied to the text file.
-* The `Output Index` is the 0 or 1 that you copied to your text file.
+* The `PrivKey` is your masternode private key (This is also in the Bitvise terminal that you have open marked as MASTERNODE GENKEY).
+* The `TxHash` is the transaction ID/long key that you copied to the text file in Step 6 Section B.
+* The `Output Index` is the number (Example: 0,1 etc) that you copied to your text file in Step 6 Section B.
 ![Example-create](https://i.imgur.com/qh8xKei.png)
 
 Click "File Save"
@@ -196,4 +203,10 @@ Click "File Save"
 *You should see ***status 4***
 
 If you do, congratulations! You have now setup a masternode. If you do not, please contact support and they will assist you.  
+
+OR you will see
+
+"code:-1" "Masternode not found in the list of available masternodes. Current status: Node just started, not yet activated" which is OK, please wait till status is changed to "Active"
+
+You can also check the status of your masternode by using the "Debug Console" in tools inside your Slate wallet and issuing a command "masternode status"
 ***
