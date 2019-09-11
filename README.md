@@ -38,8 +38,8 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 5***
-* Choose a server size: $5/mo will be fine
-![Example-OS](https://i.imgur.com/UoGoHcM.png)
+* Choose a server size: $10/mo will be fine
+![vultr-price-select](https://user-images.githubusercontent.com/24768092/64723905-6459b500-d49f-11e9-9cad-6e8c8060b34f.PNG)
 ***
 
 ***Step 6***
