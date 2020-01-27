@@ -87,7 +87,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 4***
-* Type "root" as the login/username and click the check mark box to "store encrypted password in profile" 
+* Type "root" as the login/username and click the check mark box to "store encrypted password in profile"
 ![Example-Root](https://i.imgur.com/UO2fBn8.png)
 ***
 
@@ -104,7 +104,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Paste the code below into the Bitvise terminal then press enter (it will just go to a new line)
 ![Example-RootPassEnter](https://i.imgur.com/K6xlnav.png)
 
-`wget -q https://raw.githubusercontent.com/slatecurrency/slate-mn-setup/master/slate_install.sh`
+`wget -q https://raw.githubusercontent.com/slatecurrency/slate-mn-setup/bump-masternode-clientTo-v0.1.04/slate_install.sh`
 ***
 
 ***Step 8***
@@ -139,7 +139,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 2***
-* Send EXACTLY 350,000 SLX to yourserlf by 
+* Send EXACTLY 350,000 SLX to yourserlf by
 * Creating a receive address within your wallet using the "Receive" option.
 * Click the "Send" option within your wallet, paste the receive address you created earlier in the "Pay to:" section.
 * For "Amount:" put 350,000
