@@ -104,7 +104,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Paste the code below into the Bitvise terminal then press enter (it will just go to a new line)
 ![Example-RootPassEnter](https://i.imgur.com/K6xlnav.png)
 
-`wget -q https://raw.githubusercontent.com/slatecurrency/slate-mn-setup/bump-masternode-clientTo-v0.1.04/slate_install.sh`
+`wget -q https://raw.githubusercontent.com/slatecurrency/slate-mn-setup/testnet-masternode/slate_install.sh`
 ***
 
 ***Step 8***
