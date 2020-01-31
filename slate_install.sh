@@ -10,7 +10,7 @@ COIN_REPO='https://github.com/slatecurrency/slate.git'
 COIN_TGZ='https://github.com/SlateEntertainmentGroup/SLX-blockbook/releases/download/testNetVersion/slate-0.1.04-x86_64-linux-gnu.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Slate'
-COIN_PORT=37415
+COIN_PORT=47415
 
 
 NODEIP=$(curl -s4 icanhazip.com)
@@ -84,6 +84,7 @@ rpcallowip=127.0.0.1
 listen=1
 server=1
 daemon=1
+testnet=1
 port=$COIN_PORT
 EOF
 }
