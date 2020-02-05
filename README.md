@@ -107,8 +107,21 @@ and copy paste this information:
     masternode=1
     externalip=<your unique public ip address of your VPS with the port number>
     masternodeprivkey=<Result of Step 3>
+ 
+ Another Example:
+ 
+    rpcuser=slate
+    rpcpassword=password
+    rpcallowip=127.0.0.1
+    server=1
+    daemon=1
+    logtimestamps=1
+    maxconnections=256
+    masternode=1
+    externalip=198.86.234.56:37415
+    masternodeprivkey=892WPpkqbr7sr6Si4fdsfssjjapuFzAXwETCrpPJubnrmU6aKzh
     
-Press Ctrl+X, type "Y" and press enter to save
+Press Ctrl+X, type "Y" and press enter to save.
 
 **Step 15**
 
