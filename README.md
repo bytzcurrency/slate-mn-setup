@@ -81,7 +81,7 @@ start "slated" by running:
 
 **Step 12**
 
-Use "ctrl+c" to turn it off right away. We only did this create the hidden directory that you will need to access.
+Use "ctrl+c" to turn it off right away. We only did this to create a hidden "/.slate" directory that you will need to access.
 
 **Step 13**
 
