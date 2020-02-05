@@ -1,7 +1,7 @@
 
 **Introduction**
 
-These steps are designed to help a user setup a masternode without using any scripts. These beneficial because a user can use these steps to setup his or her masternode in any Operating system environment.
+These steps are designed to help a user setup a masternode without using any scripts. These are beneficial because a user can use these steps to setup his or her masternode on any operating system environment.
 
 
 
@@ -122,7 +122,7 @@ and
 
 **Step 16**
 
-At this point your masternode started to sync and you watch its syncing progress by running this command:
+At this point your masternode started to sync and you can watch its syncing progress by running this command:
 
     tail -f ~/.slate/debug.log
     
@@ -130,7 +130,7 @@ Wait till your masternode has synced by accepting all the blocks on the network,
 
 **Step 17**
 
-Once you see that the masternode synced by accepting all the blocks on the network, go to your "control wallet". Select Masternodes and click on "Start All"
+Once you see that the masternode synced by accepting all the blocks on the network, go to your "control wallet". Select "Masternodes" and click on "Start All"
 
 
     
