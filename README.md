@@ -29,7 +29,7 @@ Still in the debug console. Type and press enter:
 
 EX. getaccountaddress masternode1
 
-Save this address in a txt file also, this is the address where you would have to send yoour 350,000 SLX as collateral for your masternode.
+Save this address in a txt file also, this is the address where you would have to send your 350,000 SLX as collateral for your masternode.
 
 **Step 5**
 
