@@ -4,7 +4,7 @@ This guide will assist you in setting up a Slate Masternode on a Linux Server ru
 If you require further assistance contact the support team @ [Discord](https://discord.gg/ENuwHH5)
 ***
 ## Requirements
-1) **350,000  SLX coins.**
+1) **350,000  BYTZ coins.**
 2) **A VPS running Linux Ubuntu 16.04.**
 3) **A Windows local wallet.**
 4) **An SSH client such as [Bitvise](https://dl.bitvise.com/BvSshClient-Inst.exe)**
