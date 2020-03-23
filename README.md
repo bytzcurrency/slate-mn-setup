@@ -198,7 +198,7 @@ Click "File Save"
 ***step 4***
 * Check the status of your masternode within the VPS by using the command below:
 
-`slate-cli masternode status`
+`bytz-cli masternode status`
 
 *You should see ***status 4***
 
