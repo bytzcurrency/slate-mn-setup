@@ -87,7 +87,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 4***
-* Type "root" as the login/username and click the check mark box to "store encrypted password in profile" 
+* Type "root" as the login/username and click the check mark box to "store encrypted password in profile"
 ![Example-Root](https://i.imgur.com/UO2fBn8.png)
 ***
 
@@ -110,7 +110,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***Step 8***
 * Paste the code below into the Bitvise terminal then press enter
 
-`bash slate_install.sh`
+`bash bytz_install.sh`
 
 ![Example-Bash](https://i.imgur.com/myvmKTE.png)
 
@@ -135,11 +135,11 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Section D: Preparing the Local wallet
 
 ***Step 1***
-* Download and install the Slate wallet [here](https://github.com/slatecurrency/slate/releases)
+* Download and install the Slate wallet [here](https://github.com/bytzcurrency/bytz/releases)
 ***
 
 ***Step 2***
-* Send EXACTLY 350,000 SLX to yourserlf by 
+* Send EXACTLY 350,000 BYTZ to yourserlf by
 * Creating a receive address within your wallet using the "Receive" option.
 * Click the "Send" option within your wallet, paste the receive address you created earlier in the "Pay to:" section.
 * For "Amount:" put 350,000
