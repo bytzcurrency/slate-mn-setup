@@ -7,7 +7,7 @@ These steps are designed to help a user setup a masternode without using any scr
 
 **Step 1**
 
-Download the latest Slate core wallet and make sure the wallet is synced. This will be your "Control Wallet"
+Download the latest BYTZ core wallet and make sure the wallet is synced. This will be your "Control Wallet"
 
 **Step 2**
 
@@ -20,7 +20,7 @@ In the console. Type and press enter:
     createmasternodekey
 
 Save this key in a txt file of your choice
-    
+
 **Step 4**
 
 Still in the debug console. Type and press enter:
@@ -29,11 +29,11 @@ Still in the debug console. Type and press enter:
 
 EX. getaccountaddress masternode1
 
-Save this address in a txt file also, this is the address where you would have to send your 350,000 SLX as collateral for your masternode.
+Save this address in a txt file also, this is the address where you would have to send your 350,000 BYTZ as collateral for your masternode.
 
 **Step 5**
 
-Close the debug console. Go to "Send" option in the core wallet, paste the address you created in step 4 into the "Pay To:" section. In the "Amount" area type 350,000 SLX and click "Send".
+Close the debug console. Go to "Send" option in the core wallet, paste the address you created in step 4 into the "Pay To:" section. In the "Amount" area type 350,000 BYTZ and click "Send".
 
 **Step 6**
 
@@ -59,41 +59,41 @@ Once thats done click File > Save and close the file. Restart your "control wall
 
 Go to your VPS, if you are using Linux use this command and press enter:
 
-     wget https://github.com/SlateEntertainmentGroup/SLX-blockbook/releases/download/testNetVersion/slate-0.1.04-x86_64-linux-gnu.tar.gz
+     must upload "bytz-0.1.0-x86_64-linux-gnu.tar.gz" on that VM
 
 **Step 9**
 
 Unzip this file by running:
 
-     tar -zxvf slate-0.1.04-x86_64-linux-gnu.tar.gz
+     tar -zxvf bytz-0.1.0-x86_64-linux-gnu.tar.gz
 
 **Step 10**
 
 Go to your slate bin directory by running:
 
-    cd ~/slate/bin
+    cd ~/bytz-0.1.0/bin
 
 **Step 11**
 
 start "slated" by running:
 
-    ./slated
+    ./bytzd
 
 **Step 12**
 
-Use "ctrl+c" to turn it off right away. We only did this to create a hidden "/.slate" directory that you will need to access.
+Use "ctrl+c" to turn it off right away. We only did this to create a hidden "/.bytz" directory that you will need to access.
 
 **Step 13**
 
 Run this command:
 
-    cd ~/.slate
+    cd ~/.bytz
 
 **Step 14**
 
 Run this command:
 
-    nano slate.conf
+    nano bytz.conf
 
 and copy paste this information:
 
@@ -107,9 +107,9 @@ and copy paste this information:
     masternode=1
     externalip=<your unique public ip address of your VPS with the port number>
     masternodeprivkey=<Result of Step 3>
- 
+
  Another Example:
- 
+
     rpcuser=slate
     rpcpassword=password
     rpcallowip=127.0.0.1
@@ -120,34 +120,27 @@ and copy paste this information:
     masternode=1
     externalip=198.86.234.56:37415
     masternodeprivkey=892WPpkqbr7sr6Si4fdsfssjjapuFzAXwETCrpPJubnrmU6aKzh
-    
+
 Press Ctrl+X, type "Y" and press enter to save.
 
 **Step 15**
 
 Run these commands:
 
-    cd ~/slate/bin
- 
-and 
- 
-    ./slated
+    cd ~/bytz/bin
+
+and
+
+    ./bytzd
 
 **Step 16**
 
 At this point your masternode started to sync and you can watch its syncing progress by running this command:
 
-    tail -f ~/.slate/debug.log
-    
+    tail -f ~/.bytz/debug.log
+
 Wait till your masternode has synced by accepting all the blocks on the network, this will take a while.
 
 **Step 17**
 
 Once you see that the masternode synced by accepting all the blocks on the network, go to your "control wallet". Select "Masternodes" and click on "Start All"
-
-
-    
- 
-
-
-
