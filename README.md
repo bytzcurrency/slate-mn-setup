@@ -93,7 +93,7 @@ Run this command:
 
 Run this command:
 
-    nano bytz.conf    (install sudo apt install nano)
+    nano bytz.conf    (install nano if your machine doesn't have it, sudo apt install nano)
 
 and copy paste this information:
 
