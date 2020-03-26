@@ -131,7 +131,7 @@ Run these commands:
 
 and
 
-    ./bytzd
+    ./bytzd &
 
 **Step 16**
 
