@@ -143,4 +143,4 @@ Wait till your masternode has synced by accepting all the blocks on the network,
 
 **Step 17**
 
-Once you see that the masternode synced by accepting all the blocks on the network, go to your "control wallet". Select "Masternodes" and click on "Start All"
+Once you see that the masternode synced by accepting all the blocks on the network, go to your "control wallet". Select "Masternodes" and click on "Start MISSING". 
