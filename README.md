@@ -127,7 +127,7 @@ Press Ctrl+X, type "Y" and press enter to save.
 
 Run these commands:
 
-    cd ~/bytz/bin
+    cd ~/bytz-0.1.0/bin
 
 and
 
