@@ -110,7 +110,7 @@ and copy paste this information:
 
  Another Example:
 
-    rpcuser=slate
+    rpcuser=bytz
     rpcpassword=password
     rpcallowip=127.0.0.1
     server=1
